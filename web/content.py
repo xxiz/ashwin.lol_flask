@@ -27,3 +27,9 @@ def projects_page():
     preview_title = preview_title,
     preview_image = preview_image,
     preview_message = preview_message)
+
+
+def file_page():
+    return render_template('files.html',
+    title = prefix + "Files",
+    )

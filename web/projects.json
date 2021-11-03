@@ -2,7 +2,9 @@
         {
             "title": "Vernon",
             "description": "Quality-focused reboot composite",
-            "image_url": "http://placeimg.com/640/480"
+            "image_url": "http://placeimg.com/640/480",
+            "stack": "",
+            "source_code": ""
         },
         {
             "title": "Nolan",
