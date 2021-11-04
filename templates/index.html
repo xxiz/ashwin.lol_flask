@@ -30,8 +30,9 @@
     </div>
 
     <!-- Projects -->
+    {% if sample_projects %}
     <section id="projects" class="section projects">
-      <h2 class="section__title">Projects</h2>
+      <h2 class="section__title">A Few Projects</h2>
 
       <div class="projects__grid">
         {% for project in sample_projects %}
@@ -41,16 +42,22 @@
             {{ project.description }}
           </p>
           <ul class="project__stack">
-            {{ project.stack }}
+            {% for stack in project.stack %}
+            <li class="project__stack-item">{{ stack }}</li>
+            {% endfor %}
           </ul>
 
+          {% if project.github_repo %}
           <a
-            href="{{ project.source_code }}"
+            href="{{ project.github_repo }}"
             aria-label="source code"
             class="link link--icon"
           >
             <i aria-hidden="true" class="fab fa-github"></i>
           </a>
+          {% endif %}
+
+          {% if project.demo_site %}
           <a
             href="{{ project.demo_site}}"
             aria-label="live preview"
@@ -58,18 +65,20 @@
           >
             <i aria-hidden="true" class="fas fa-external-link-alt"></i>
           </a>
+          {% endif %}
         </div>
         {% endfor %}
         
       </div>
     </section>
+    {% endif %}
 
     <!-- Skills -->
     <section class="section skills" id="skills">
-      <h2 class="section__title">Skills</h2>
+      <h2 class="section__title">Technologies</h2>
       <ul class="skills__list">
-        {% for skill in skills %}
-        <li class="skills__list-item btn btn--plain">{{skill}}</li>
+        {% for tech in technologies %}
+        <li class="skills__list-item btn btn--plain">{{tech}}</li>
         {% endfor %}
       </ul>
     </section>

@@ -1,18 +1,45 @@
 {% extends 'base.html'%}
 {% block content %}
-<h1>Projects</h1>
-<h3 class="description">A curated list of projects that I have written (mostly) during my free time and from sc</h3>
-<div class="row">
-    {% for item in items %}
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">{{ item.title }}</h5>
-          <p class="card-text">{{ item.description }}</p>
-          <a href="#" class="btn btn-primary">{{ item.image_url }}</a>
+{% if projects %}
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        {% for project in projects %}
+        <div class="project">
+          <h3>{{ project.title }}</h3>
+          <p class="project__description">
+            {{ project.description }}
+          </p>
+          <ul class="project__stack">
+            {% for stack in project.stack %}
+            <li class="project__stack-item">{{ stack }}</li>
+            {% endfor %}
+          </ul>
+
+          {% if project.github_repo %}
+          <a
+            href="{{ project.github_repo }}"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          {% endif %}
+
+          {% if project.demo_site %}
+          <a
+            href="{{ project.demo_site}}"
+            aria-label="live preview"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+          {% endif %}
         </div>
+        {% endfor %}
+        
       </div>
-    </div>
-    {% endfor %}
-  </div>
+    </section>
+    {% endif %}
   {% endblock %}
