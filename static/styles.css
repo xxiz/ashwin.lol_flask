@@ -20,7 +20,7 @@
   }
   
   body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 1.5;
     color: var(--clr-fg);
     background-color: var(--clr-bg);
@@ -362,6 +362,9 @@
     transition: transform 0.2s ease-in-out;
   }
   
+  .left {
+    text-align: left;
+  }
   @media (max-width: 600px) {
     .header {
       height: 6em;

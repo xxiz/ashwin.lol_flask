@@ -8,7 +8,7 @@
         {% for project in projects %}
         <div class="project">
           <h3>{{ project.title }}</h3>
-          <p class="project__description">
+          <p class="project__description left">
             {{ project.description }}
           </p>
           <ul class="project__stack">
@@ -17,23 +17,13 @@
             {% endfor %}
           </ul>
 
-          {% if project.github_repo %}
-          <a
-            href="{{ project.github_repo }}"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          {% endif %}
-
           {% if project.demo_site %}
           <a
             href="{{ project.demo_site}}"
             aria-label="live preview"
             class="link link--icon"
           >
-            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          Read More ==>
           </a>
           {% endif %}
         </div>
