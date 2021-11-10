@@ -22,6 +22,12 @@
             "demo_site": "https://ashwin.lol/projects/vlone"
         },
         {
+            "title": "Entry Manager",
+            "description": "Mileage and fuel economy is automatically calculated and easy to track in newer automobiles however with older cars this is something that becomes very tedious. To make life easier myself and a friend created this project.",
+            "image_url": "",
+            "stack": ["Python", "ReactJS", "RESTful", "Flask"]
+        },
+        {
             "title": "Encryption Tool",
             "description": "A GUI based file encryption application that utilizes the TripleDES protocol to secure text files; this can further be automated by using a configuration file.",
             "image_url": "http://placeimg.com/640/480",
