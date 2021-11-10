@@ -48,6 +48,12 @@ def projects_page():
     preview_image = preview_image,
     preview_message = preview_message)
 
+def about_page():
+    return render_template('about.html',
+    title = prefix + "Ashwin, Who?",
+    preview_title = preview_title,
+    preview_image = preview_image,
+    preview_message = preview_message)
 
 def file_page():
     return render_template('files.html',

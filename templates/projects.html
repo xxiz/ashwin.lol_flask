@@ -16,14 +16,13 @@
             <li class="project__stack-item">{{ stack }}</li>
             {% endfor %}
           </ul>
-
           {% if project.demo_site %}
           <a
             href="{{ project.demo_site}}"
             aria-label="live preview"
-            class="link link--icon"
+            class="disabled link link--icon"
           >
-          Read More ==>
+          (Coming Soon)
           </a>
           {% endif %}
         </div>
