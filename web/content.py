@@ -5,9 +5,9 @@ import json
 prefix = "Ashwin Charathsandran — "
 
 # Meta Tags
-preview_message = ""
-preview_title = ""
-preview_image = ""
+preview_message = "Expressing my undying passion for technology by researching, designing, and creating applications that solve problems."
+preview_title = prefix + "Student & Developer"
+preview_image = "/static/me.jpg"
 
 technologies = {
     "Python",
@@ -55,7 +55,12 @@ def about_page():
     preview_image = preview_image,
     preview_message = preview_message)
 
-def file_page():
-    return render_template('files.html',
-    title = prefix + "Files",
-    )
+def get_project_page(project_name):
+    return render_template('project_page.html',
+    title = prefix + project_name,
+    # code below from https://stackoverflow.com/a/64013749
+    project = [x for x in projects if x["project_id"]==project_name],
+    preview_title = preview_title,
+    preview_image = preview_image,
+    preview_message = preview_message)
+    
