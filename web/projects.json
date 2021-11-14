@@ -9,9 +9,9 @@
             "demo_site": "https://ashwin.lol/",
             "authors": "Ashwin Charathsandran",
             "description_detailed": "",
-            "dependencies":"",
-            "date_conceived": "",
-            "date_completed": "",
+            "dependencies":["Flask", "Jinja2"],
+            "date_conceived": "2021-01-02",
+            "date_completed": "ONGOING",
             "uses": ["VSCode", "CPanel", "Git Bash", "Github"] 
         },
         {
