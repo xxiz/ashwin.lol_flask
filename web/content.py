@@ -56,6 +56,7 @@ def about_page():
     preview_message = preview_message)
 
 def get_project_page(project_name):
+    print([x for x in projects if x["project_id"]==project_name])
     return render_template('project_page.html',
     title = prefix + project_name,
     # code below from https://stackoverflow.com/a/64013749

@@ -307,10 +307,10 @@
   
   .project {
     padding: 2em;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: var(--shadow);
-    transition: transform 0.2s linear;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
   }
   
   .project:hover {
@@ -323,9 +323,9 @@
   
   .project__stack {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1.2em 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
   }
   
   .project__stack-item {
@@ -425,6 +425,10 @@
     margin-bottom: 20px;
   }
 
+  .date {
+    color: grey;
+    font-style: italic;
+  }
   @media (max-width: 600px) {
     .about__content img, video {
       width: 100%;

@@ -1,5 +1,6 @@
 from flask import Flask, request
 from web.content import index_page, projects_page, about_page, get_project_page
+
 web = Flask(__name__)
 web.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

@@ -6,13 +6,12 @@
             "image_url": "http://placeimg.com/640/480",
             "stack": ["Flask", "Github", "Markdown", "CSS", "HTML", "Linux CLI"],
             "github_repo": "https://github.com/ax20/ashwin.lol_flask",
-            "demo_site": "https://ashwin.lol/",
+            "demo_site": "/",
             "authors": "Ashwin Charathsandran",
-            "description_detailed": "",
-            "dependencies":["Flask", "Jinja2"],
+            "description_detailed": "       ",
             "date_conceived": "2021-01-02",
             "date_completed": "ONGOING",
-            "uses": ["VSCode", "CPanel", "Git Bash", "Github"] 
+            "uses": ["VSCode", "CPanel", "Git Bash", "Github", "Flask", "Jinja2"] 
         },
         {
             "title": "StockBot",
@@ -20,7 +19,7 @@
             "description": "Predicts tomorrow's closing price of a given stock ticker based on technical indicators which is compared with a prediction made by a linear regression model.",
             "image_url": "http://placeimg.com/640/480",
             "stack": ["Python", "YahooFinance"],
-            "demo_site": "https://ashwin.lol/projects/stockbot"
+            "demo_site": "/projects/stockbot"
         },
         {
             "title": "Vlone",
@@ -28,7 +27,7 @@
             "description": "In Minecraft (version 1.7.10), a Java based game we tracked the movements and packets sent from a player to deduce if they were cheating.",
             "image_url": "http://placeimg.com/640/480",
             "stack": ["Java", "ProtocolLib", "SpigotMC", "Minecraft"],
-            "demo_site": "https://ashwin.lol/projects/vlone"
+            "demo_site": "/projects/vlone"
         },
         {
             "title": "Entry Manager",
@@ -43,7 +42,7 @@
             "description": "A GUI based file encryption application that utilizes the TripleDES protocol to secure text files; this can further be automated by using a configuration file.",
             "image_url": "http://placeimg.com/640/480",
             "stack": ["Java"],
-            "demo_site": "https://ashwin.lol/projects/encryption-tool"
+            "demo_site": "/projects/encryption-tool"
         },
         {
             "title": "Memory",
@@ -51,7 +50,7 @@
             "description": "A GUI based screen capture tool that captures photos via the Robot class and has the ability to upload images automatically as well as the option to share the image to any email address provided.",
             "image_url": "",
             "stack": ["Java"],
-            "demo_site": "https://ashwin.lol/projects/memory"
+            "demo_site": "/projects/memory"
         },
         {
             "title": "URL Hunter",
@@ -59,7 +58,7 @@
             "description": "Written in Python with the help of the PRAW library to download HTML content from the first thousand posts on a subreddit/user, crawl through two layers of URLs and log if the URL matches the search term.",
             "image_url": "",
             "stack":["HTML", "Python", "PRAW"],
-            "demo_site": "https://ashwin.lol/projects/url-hunter"
+            "demo_site": "/projects/url-hunter"
         }
 
 ]

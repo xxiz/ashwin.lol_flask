@@ -1,4 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>{{ project[0].title }}</h1>
+<section class="about">
+<h2 class="section__title">{{ project[0].title }} </h2>
+<div class="project__page">
+    <p class="date">Timeline: {{ project[0].date_conceived }} - {{ project[0].date_completed }} </p>
+    <p>Depencies/Uses:</p>
+    <ul>
+        {% for use in project[0].uses %}
+        <li> {{ use }} </li>
+        {% endfor %}
+    </ul>
+    <p>Author(s): {{ project[0].authors }} </p>
+</div>
+</section>
 {% endblock %}
