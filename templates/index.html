@@ -47,9 +47,9 @@
             {% endfor %}
           </ul>
 
-          {% if project.github_repo %}
+          {% if project.github_repository %}
           <a
-            href="{{ project.github_repo }}"
+            href="{{ project.github_repositroy }}"
             aria-label="source code"
             class="link link--icon"
           >
@@ -57,9 +57,9 @@
           </a>
           {% endif %}
 
-          {% if project.demo_site %}
+          {% if project.project_id %}
           <a
-            href="{{ project.demo_site }}"
+            href="/projects/{{ project.project_id }}"
             aria-label="live preview"
             class="link link--icon"
           >
