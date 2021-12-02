@@ -59,7 +59,7 @@ def get_project_page(project_name):
     return render_template('project_page.html',
     title = prefix + project_name.upper(),
     # code below from https://stackoverflow.com/a/64013749
-    project = [x for x in projects if x["project_id"]==project_name],
+    project = [x for x in projects if x["id"]==project_name],
     preview_title = preview_title,
     preview_image = preview_image,
     preview_message = preview_message)

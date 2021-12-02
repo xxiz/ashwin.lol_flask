@@ -15,9 +15,9 @@
             <li class="project__stack-item">{{ stack }}</li>
             {% endfor %}
           </ul>
-          {% if project.project_id %}
+          {% if project.id %}
           <a
-            href="/projects/{{ project.project_id}}"
+            href="/projects/{{ project.id}}"
             aria-label="live preview"
             class="disabled link link--icon"
           >

@@ -1,3 +1,18 @@
+{
+        "title": "",
+        "id": "",
+        "description": "",
+        "image_url": "/static/800_600.jpg",
+        "stack": [],
+        "github_repository": "",
+        "project_live": "",
+        "authors": "",
+        "description_detailed": "",
+        "date_conceived": "",
+        "date_completed": "",
+        "uses": []
+    },
+
 Mandatory Components
 
 project_title: full title of project

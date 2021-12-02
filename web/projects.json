@@ -1,7 +1,7 @@
 [
     {
-        "project_title": "Portfolio",
-        "project_id": "portfolio",
+        "title": "Portfolio",
+        "id": "portfolio",
         "description": "A web hosted portfolio website that features dynamic conten, and a blog system tied together by Flask.",
         "image_url": "/static/800_600.jpg",
         "stack": ["Python", "Flask", "Markdown", "CSS", "HTML", "JSON", "Javascript", "Jinja2"],
@@ -14,17 +14,68 @@
         "uses": ["VSCode", "CPanel", "Git Bash", "Github", "Google  Chrome"]
     },
     {
-        "project_title": "Stockbot",
-        "project_id": "stockbot",
+        "title": "Stockbot",
+        "id": "stockbot",
         "description": "Predicts tomorrow's closing price of a given stock ticker based on technical indicators which is compared with a prediction made by a linear regression model.",
         "image_url": "/static/800_600.jpg",
-        "stack": ["Python", "Algorithms", "Stocks", "HTML", "JSON", "Javascript", "Jinja2"],
+        "stack": ["Python", "Algorithms", "Stocks", "HTML", "JSON", "Javascript", "Jinja2", "Machine Learning"],
         "github_repository": "https://github.com/ax20/ashwin.lol_flask",
         "project_live": "https://ashwin.lol/",
         "authors": "Ashwin Charathsandran",
         "description_detailed": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc nunc, ornare vitae volutpat vel, dapibus quis tortor. Fusce viverra dolor ac eros gravida sollicitudin. Cras enim dui, lobortis id nisi nec, volutpat interdum dolor. Sed porttitor tristique ipsum, nec feugiat justo iaculis ac. Aenean elit ante, pellentesque eu rutrum id, consequat sed sem. Integer laoreet, sem in interdum pretium, ligula sapien congue odio, non egestas nulla arcu vitae libero. Integer facilisis, massa non elementum cursus, nulla quam gravida justo, sed dignissim velit massa auctor sem. Curabitur posuere maximus tincidunt. Cras eros lacus, malesuada in ante eget, posuere viverra leo. Vestibulum sollicitudin lobortis ex sit amet aliquet. Donec volutpat quam ac purus gravida, eu consectetur ex aliquam. Phasellus sit amet pellentesque diam, blandit rutrum ligula. Donec dictum nibh in tellus ultrices tristique. Integer laoreet orci est.<br>Nam sagittis sem non purus eleifend molestie. Duis auctor vitae purus ornare sagittis. Ut iaculis sit amet felis sed porttitor. Nam blandit, elit eu porta faucibus, eros diam consequat dolor, et consectetur massa eros ut nunc. Maecenas eu ligula ullamcorper purus tincidunt semper. Suspendisse quis dapibus nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ac eros id sapien luctus molestie.<br>Pellentesque fermentum eget diam ut elementum. Aliquam erat volutpat. Aenean accumsan, dui a rutrum feugiat, massa tortor laoreet risus, et venenatis lectus lorem id enim. Morbi tincidunt augue id lorem consequat, ut aliquet enim porttitor. Curabitur non faucibus augue. Nullam ultricies cursus ante sit amet convallis. Ut turpis arcu, euismod ac arcu id, pharetra pellentesque turpis. Cras posuere enim sed massa pretium, quis iaculis justo fermentum. Aliquam semper nulla vel ipsum egestas vulputate. Sed in ipsum sed nisl mattis ornare at ac magna. Morbi vulputate lorem ut turpis venenatis, sit amet rhoncus leo tristique. Sed blandit augue ligula, quis condimentum nisl lacinia eget. Suspendisse leo ipsum, sollicitudin in orci ut, vestibulum fringilla justo. Pellentesque et accumsan enim, quis rhoncus velit. Proin vehicula suscipit turpis, placerat tincidunt dui.",
-        "date_conceived": "2021-10-02",
-        "date_completed": "ONGOING",
-        "uses": ["VSCode", "CPanel", "Git Bash", "Github", "Google  Chrome"]
+        "date_conceived": "2021-01-27",
+        "date_completed": "2021-02-06",
+        "uses": ["VSCode", "YahooFinance"]
+    },
+    {
+        "title": "Vlone",
+        "id": "vlone",
+        "description": "An anticheat developed in Java to prevent cheaters from hacking in Minecraft v1.7.10",
+        "image_url": "/static/800_600.jpg",
+        "stack": ["Java", "ProtocolLib", "Minecraft", "Bukkit", "BungeeCord API"],
+        "project_live": "",
+        "authors": "Ashwin Charathsandran, Rishi Sudarshanan",
+        "description_detailed": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc nunc, ornare vitae volutpat vel, dapibus quis tortor. Fusce viverra dolor ac eros gravida sollicitudin. Cras enim dui, lobortis id nisi nec, volutpat interdum dolor. Sed porttitor tristique ipsum, nec feugiat justo iaculis ac. Aenean elit ante, pellentesque eu rutrum id, consequat sed sem. Integer laoreet, sem in interdum pretium, ligula sapien congue odio, non egestas nulla arcu vitae libero. Integer facilisis, massa non elementum cursus, nulla quam gravida justo, sed dignissim velit massa auctor sem. Curabitur posuere maximus tincidunt. Cras eros lacus, malesuada in ante eget, posuere viverra leo. Vestibulum sollicitudin lobortis ex sit amet aliquet. Donec volutpat quam ac purus gravida, eu consectetur ex aliquam. Phasellus sit amet pellentesque diam, blandit rutrum ligula. Donec dictum nibh in tellus ultrices tristique. Integer laoreet orci est.<br>Nam sagittis sem non purus eleifend molestie. Duis auctor vitae purus ornare sagittis. Ut iaculis sit amet felis sed porttitor. Nam blandit, elit eu porta faucibus, eros diam consequat dolor, et consectetur massa eros ut nunc. Maecenas eu ligula ullamcorper purus tincidunt semper. Suspendisse quis dapibus nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ac eros id sapien luctus molestie.<br>Pellentesque fermentum eget diam ut elementum. Aliquam erat volutpat. Aenean accumsan, dui a rutrum feugiat, massa tortor laoreet risus, et venenatis lectus lorem id enim. Morbi tincidunt augue id lorem consequat, ut aliquet enim porttitor. Curabitur non faucibus augue. Nullam ultricies cursus ante sit amet convallis. Ut turpis arcu, euismod ac arcu id, pharetra pellentesque turpis. Cras posuere enim sed massa pretium, quis iaculis justo fermentum. Aliquam semper nulla vel ipsum egestas vulputate. Sed in ipsum sed nisl mattis ornare at ac magna. Morbi vulputate lorem ut turpis venenatis, sit amet rhoncus leo tristique. Sed blandit augue ligula, quis condimentum nisl lacinia eget. Suspendisse leo ipsum, sollicitudin in orci ut, vestibulum fringilla justo. Pellentesque et accumsan enim, quis rhoncus velit. Proin vehicula suscipit turpis, placerat tincidunt dui.",
+        "date_conceived": "2017-09-17",
+        "date_completed": "2018-02-22",
+        "uses": ["Eclipse Mars"]
+    },
+    {
+        "title": "Entry Manager",
+        "id": "entry-manager",
+        "description": "An applicaton used to track mileage, fuel economy and other factors in order to understand the aging of a cars engine.",
+        "image_url": "/static/800_600.jpg",
+        "stack": ["Collabration", "Python", "Flask", "PostgresSQL", "ReactJS", "REStful"],
+        "github_repository": "https://github.com/ax20/entry-manager",
+        "project_live": "https://84d.pw/",
+        "authors": "Ashwin Charathsandran, David LingFeng",
+        "description_detailed": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc nunc, ornare vitae volutpat vel, dapibus quis tortor. Fusce viverra dolor ac eros gravida sollicitudin. Cras enim dui, lobortis id nisi nec, volutpat interdum dolor. Sed porttitor tristique ipsum, nec feugiat justo iaculis ac. Aenean elit ante, pellentesque eu rutrum id, consequat sed sem. Integer laoreet, sem in interdum pretium, ligula sapien congue odio, non egestas nulla arcu vitae libero. Integer facilisis, massa non elementum cursus, nulla quam gravida justo, sed dignissim velit massa auctor sem. Curabitur posuere maximus tincidunt. Cras eros lacus, malesuada in ante eget, posuere viverra leo. Vestibulum sollicitudin lobortis ex sit amet aliquet. Donec volutpat quam ac purus gravida, eu consectetur ex aliquam. Phasellus sit amet pellentesque diam, blandit rutrum ligula. Donec dictum nibh in tellus ultrices tristique. Integer laoreet orci est.<br>Nam sagittis sem non purus eleifend molestie. Duis auctor vitae purus ornare sagittis. Ut iaculis sit amet felis sed porttitor. Nam blandit, elit eu porta faucibus, eros diam consequat dolor, et consectetur massa eros ut nunc. Maecenas eu ligula ullamcorper purus tincidunt semper. Suspendisse quis dapibus nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ac eros id sapien luctus molestie.<br>Pellentesque fermentum eget diam ut elementum. Aliquam erat volutpat. Aenean accumsan, dui a rutrum feugiat, massa tortor laoreet risus, et venenatis lectus lorem id enim. Morbi tincidunt augue id lorem consequat, ut aliquet enim porttitor. Curabitur non faucibus augue. Nullam ultricies cursus ante sit amet convallis. Ut turpis arcu, euismod ac arcu id, pharetra pellentesque turpis. Cras posuere enim sed massa pretium, quis iaculis justo fermentum. Aliquam semper nulla vel ipsum egestas vulputate. Sed in ipsum sed nisl mattis ornare at ac magna. Morbi vulputate lorem ut turpis venenatis, sit amet rhoncus leo tristique. Sed blandit augue ligula, quis condimentum nisl lacinia eget. Suspendisse leo ipsum, sollicitudin in orci ut, vestibulum fringilla justo. Pellentesque et accumsan enim, quis rhoncus velit. Proin vehicula suscipit turpis, placerat tincidunt dui.",
+        "date_conceived": "2021-04-07",
+        "date_completed": "2021-06-10",
+        "uses": ["VSCode", "PostgresSQL Server", "CPanel"]
+    },
+    {
+        "title": "Memory",
+        "id": "memory",
+        "description": "Java based screenshot program that captures screenshots and saves it locally with the ability to share via email using a preset config",
+        "image_url": "/static/800_600.jpg",
+        "stack": ["Java"],
+        "authors": "Ashwin Charathsandran",
+        "description_detailed": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nunc nunc, ornare vitae volutpat vel, dapibus quis tortor. Fusce viverra dolor ac eros gravida sollicitudin. Cras enim dui, lobortis id nisi nec, volutpat interdum dolor. Sed porttitor tristique ipsum, nec feugiat justo iaculis ac. Aenean elit ante, pellentesque eu rutrum id, consequat sed sem. Integer laoreet, sem in interdum pretium, ligula sapien congue odio, non egestas nulla arcu vitae libero. Integer facilisis, massa non elementum cursus, nulla quam gravida justo, sed dignissim velit massa auctor sem. Curabitur posuere maximus tincidunt. Cras eros lacus, malesuada in ante eget, posuere viverra leo. Vestibulum sollicitudin lobortis ex sit amet aliquet. Donec volutpat quam ac purus gravida, eu consectetur ex aliquam. Phasellus sit amet pellentesque diam, blandit rutrum ligula. Donec dictum nibh in tellus ultrices tristique. Integer laoreet orci est.<br>Nam sagittis sem non purus eleifend molestie. Duis auctor vitae purus ornare sagittis. Ut iaculis sit amet felis sed porttitor. Nam blandit, elit eu porta faucibus, eros diam consequat dolor, et consectetur massa eros ut nunc. Maecenas eu ligula ullamcorper purus tincidunt semper. Suspendisse quis dapibus nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ac eros id sapien luctus molestie.<br>Pellentesque fermentum eget diam ut elementum. Aliquam erat volutpat. Aenean accumsan, dui a rutrum feugiat, massa tortor laoreet risus, et venenatis lectus lorem id enim. Morbi tincidunt augue id lorem consequat, ut aliquet enim porttitor. Curabitur non faucibus augue. Nullam ultricies cursus ante sit amet convallis. Ut turpis arcu, euismod ac arcu id, pharetra pellentesque turpis. Cras posuere enim sed massa pretium, quis iaculis justo fermentum. Aliquam semper nulla vel ipsum egestas vulputate. Sed in ipsum sed nisl mattis ornare at ac magna. Morbi vulputate lorem ut turpis venenatis, sit amet rhoncus leo tristique. Sed blandit augue ligula, quis condimentum nisl lacinia eget. Suspendisse leo ipsum, sollicitudin in orci ut, vestibulum fringilla justo. Pellentesque et accumsan enim, quis rhoncus velit. Proin vehicula suscipit turpis, placerat tincidunt dui.",
+        "date_conceived": "2020-04-03",
+        "date_completed": "2020-04-03",
+        "uses": ["Eclipse"]
+    },
+    {
+        "title": "URL Scraper",
+        "id": "scraper",
+        "description": "Scrolls through the top hottest posts on Reddit and goes through each post to find all links from a predefined website.",
+        "image_url": "/static/800_600.jpg",
+        "stack": ["Python", "PRAW Library"],
+        "authors": "Ashwin Charathsandran",
+        "description_detailed": "",
+        "date_conceived": "2021-02-06",
+        "date_completed": "2021-02-11",
+        "uses": ["VSCode"]
     }
 ]
