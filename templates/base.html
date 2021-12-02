@@ -1,5 +1,6 @@
 <!-- Design based off https://rajshekhar26.github.io/cleanfolio-minimal/ -->
 
+<!-- WHy is it there? -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,12 +15,19 @@
   <link rel="stylesheet" href="/static/styles.css" />
   <link rel="stylesheet" href="/static/simple-grid.min.css">
   <title>{{ title }}</title>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-54X3DWS');</script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body class="light" id="top">
   <header class="header center">
-    <h3>
-      <a href="/" class="link">AC.</a>
+    <h3 class="base__title">
+      <a href="/" class="link">A<sub>C</sub></a>
     </h3>
 
     <nav class="nav center">
@@ -30,6 +38,7 @@
         <li class="nav__list-item">
           <a class="link link--nav" href="/about">About</a>
         </li>
+        <!-- Make this a page -->
         <li class="nav__list-item">
           <a class="link link--nav" href="mailto:ashwincharath@gmai.com">Contact</a>
         </li>
@@ -67,5 +76,9 @@
   </div>
 
   <script src="/static/script.js"></script>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54X3DWS"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
